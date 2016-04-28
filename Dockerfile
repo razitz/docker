@@ -1,4 +1,4 @@
-FROM java:openjdk-8-jdk-alpine
+FROM java:openjdk-7-jdk-alpine
 
 RUN apk --update add --no-cache git openssh-client curl zip unzip bash ttf-dejavu && rm -rf /var/cache/apk/*
 
